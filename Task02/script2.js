@@ -13,7 +13,6 @@ document.getElementById('button').addEventListener('click', function() {
     }
     
     let node = document.createElement('h4');
-    
     document.myForm.appendChild(node);
     document.getElementsByTagName('h4')[0].innerText = 'Result: ' + result + ' correct answers to 3 questions!'
     

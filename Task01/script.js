@@ -14,6 +14,7 @@ document.getElementById('button').addEventListener('click', function() {
     const node = document.createElement('span');
     
     document.myForm.insertBefore(cloneBlock, document.getElementsByTagName('h5')[0]);
+    
     myBlock.childNodes[1].appendChild(node, myBlock);
     myBlock.getElementsByTagName('span')[0].innerText = dateNow;
     myBlock.getElementsByTagName('span')[0].classList.add('date-time');
